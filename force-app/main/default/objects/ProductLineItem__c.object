@@ -63,6 +63,19 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>LineItem__c</fullName>
+        <externalId>false</externalId>
+        <label>LineItem</label>
+        <referenceTo>LineItem__c</referenceTo>
+        <relationshipLabel>ProductLineItems</relationshipLabel>
+        <relationshipName>ProductLineItems</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
         <fullName>Type__c</fullName>
         <externalId>false</externalId>
         <label>Type</label>
@@ -86,6 +99,6 @@
     </nameField>
     <pluralLabel>ProductLineItems</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

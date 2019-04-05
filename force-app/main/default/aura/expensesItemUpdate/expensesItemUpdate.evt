@@ -1,0 +1,9 @@
+<aura:event type="COMPONENT">
+    <aura:attribute name="expense" type="Expense__c"/>
+</aura:event>
+
+<!-- Existen dos tipos de eventos: componente y aplicación. Aquí estamos utilizando un evento componente, 
+porque queremos que un componente antecesor capte y gestione el evento.
+Un antecesor es un componente “por encima” de este en la jerarquía de componentes
+Si deseamos un evento del tipo “difusión general”, donde cualquier componente pueda recibirlo, 
+utilizaríamos un evento aplicación en su lugar. -->

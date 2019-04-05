@@ -1,0 +1,24 @@
+<aura:component>
+ 
+    <aura:attribute name="message" type="String"/>
+ 
+    <p>Message of the day: {!v.message}</p>
+ 
+    <div>
+        <lightning:button label="You look nice today."
+            onclick="{!c.handleClick}"/>
+ 
+        <lightning:button label="Today is going to be a great day!"
+            onclick="{!c.handleClick}"/>
+        
+          <!-- Brand variant: Identifies the primary action in a group of buttons -->
+    <lightning:button variant="brand" label="Brand action" title="Brand action" onclick="{! c.handleClick }" />
+    </div>
+    
+    <lightning:button label="Boton nuevo 2"
+                      onclick="{!c.handleClick2}"/>
+    <lightning:button label="Boton nuevo 3"
+                      onclick="{!c.handleClick3}"/>
+  
+ 
+</aura:component>

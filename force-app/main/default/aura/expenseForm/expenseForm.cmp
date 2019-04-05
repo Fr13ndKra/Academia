@@ -1,0 +1,12 @@
+<aura:component >
+	 <legend id="newexpenseform" class="slds-text-heading--small 
+          slds-p-vertical--medium">
+          Add Expense
+        </legend>
+        <!-- NEW EXPENSE FORM -->
+    <lightning:layout >
+        <lightning:layoutItem padding="around-small" size="6">
+            <c:expenseForm/>
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>

@@ -1,0 +1,22 @@
+<apex:page standardController="Contact" >
+    <h2>
+        Página para insertar contacto
+    </h2>
+    <apex:form >
+        <apex:pageBlock title="Insert new Contact">
+        Insert Your first name:<br/>
+        <apex:inputField value="{! Contact.FirstName}"></apex:inputField><br/>
+        Insert your Last Name:<br/>
+        <apex:inputField value="{! Contact.LastName}"></apex:inputField><br/>
+        Insert your Email:<br/>
+        <apex:inputField value="{! Contact.Email}"></apex:inputField><br/>
+        
+        <apex:pageBlockButtons >
+            <apex:commandButton action="{!save}"/>
+        </apex:pageBlockButtons>
+        </apex:pageBlock>
+        <apex:messages />
+        </apex:form>
+    
+    
+</apex:page>

@@ -1,0 +1,4 @@
+<apex:page >
+    ({! IF($User.isActive, $User.Username, 'inactive') })
+            {! $User.FirstName } {! $User.LastName }
+</apex:page>

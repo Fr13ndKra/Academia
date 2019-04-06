@@ -1,0 +1,13 @@
+<apex:page >
+    -<!-- <apex:stylesheet value="{!URLFOR($Resource.AppStylesheet,'AppStylesheet.css')}"/> -->
+    <apex:stylesheet value="{!$Resource.AppStylesheet}"/>
+    <!--
+    <style type="text/css">
+        .asideText { font-style: italic; }
+    </style>
+	-->
+    <apex:outputText style="font-weight: bold;" 
+        value="This text is styled directly."/>
+    <apex:outputText styleClass="asideText" 
+        value="This text is styled via a stylesheet class."/>
+</apex:page>

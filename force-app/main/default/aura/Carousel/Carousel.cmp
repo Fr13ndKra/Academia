@@ -1,0 +1,17 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
+   <lightning:carousel disableAutoRefresh="false" disableAutoScroll="false">
+        <lightning:carouselImage
+            src = "{!$Resource.carousel +'/wel4.png'}"
+           >
+        </lightning:carouselImage>
+        <lightning:carouselImage
+            src = "{!$Resource.carousel +'/wel5.png'}"
+        >
+        </lightning:carouselImage>
+        <lightning:carouselImage
+            src = "{!$Resource.carousel +'/wel3.png'}"
+            >
+        </lightning:carouselImage>
+    </lightning:carousel>
+	
+</aura:component>

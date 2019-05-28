@@ -1,0 +1,26 @@
+<aura:component description="footer" implements="forceCommunity:availableForAllPageTypes" access="global">
+    <aura:attribute name="footer" type="String" default="Spotiforce Community" access="global" />
+	<aura:attribute name="footerYear" type="String" default="2019" access="global" />
+	<div class="slds-grid">
+        <div class="slds-col">
+            <br/><h1>About us</h1>
+        	<br/><br/><span>{!v.footer}</span> <br />
+            <p>
+                This website has made for own merits, all the information given are protected by its owners.<br/>
+                <br/>&copy; Copyright {!v.footerYear}<br/>  
+            </p>
+            <br/>
+        </div>
+        
+         <div class="slds-col">
+             <br/><h1>Contact</h1>
+        	 <br/><br/>
+             <ul>
+             <li>Phone: 5530396743</li>
+             <li>Email: diego.olverah@softtek.com</li>
+             </ul>
+        </div>
+        
+	</div>
+	
+</aura:component>
